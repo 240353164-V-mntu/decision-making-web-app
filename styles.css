@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p.scenario {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.scenario-image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.choice-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.choice-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.choice-btn.selected {
+  background-color: #2196F3; /* Blue for selected choice */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#progress {
+  width: 100%;
+  background-color: #ddd;
+  margin-top: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#progressBar {
+  width: 0;
+  height: 30px;
+  background-color: #4CAF50;
+  transition: width 0.3s;
+}
+
+#rewardMessage {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #FF9800;
+}
+#app {
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.choice-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.choice-btn.selected {
+  background-color: #2196F3; /* Blue when selected */
+  color: white;
+  transform: scale(1.05); /* Slightly bigger */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#percentages {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#likePercentage,
+#dislikePercentage {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+
+#likePercentage,
+#dislikePercentage {
+    margin: 5px 0;
+    font-weight: bold;
+}
